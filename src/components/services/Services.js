@@ -1,7 +1,5 @@
 import {
-  Button,
   Card,
-  CardActions,
   CardContent,
   CardMedia,
   Grid,
@@ -9,7 +7,7 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import "./services.scss";
-import { offersListing, services } from "../database/offers";
+import { offersListing, services } from "../../database/offers";
 
 const Services = () => {
   return (

@@ -24,47 +24,47 @@ export let navLinks = [
   {
     id: "nism_iibf",
     title: "NISM / IIBF",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo1", title: "Random subtitle" }],
   },
   {
     id: "journals",
     title: "Journals",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo2", title: "Random subtitle" }],
   },
   {
     id: "tax_compliance_on_dvd",
     title: "Tax Compliance on DVD",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo3", title: "Random subtitle" }],
   },
   {
     id: "taxmann_online_on_dvd",
     title: "Taxmann online on DVD",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo4", title: "Random subtitle" }],
   },
   {
     id: "taxmann_online_on_web",
     title: "Tax online on Web",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo5", title: "Random subtitle" }],
   },
   {
     id: "e_services",
     title: "E-Services",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo6", title: "Random subtitle" }],
   },
   {
     id: "e_journals",
     title: "E-Journals",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo7", title: "Random subtitle" }],
   },
   {
     id: "e_books",
     title: "E-Books",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo8", title: "Random subtitle" }],
   },
   {
     id: "advanced_diploma_in_international_taxation",
     title: "Advanced diploma in international taxation",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo9", title: "Random subtitle" }],
   },
 ];
 
@@ -82,7 +82,7 @@ export let navQuickLinks = [
   {
     id: "catalogue",
     title: "Catalogue",
-    children: [{ id: "foo", title: "bar" }],
+    children: [{ id: "foo0", title: "Random subtitle" }],
   },
   {
     id: "dealers",

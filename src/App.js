@@ -1,9 +1,11 @@
 import "./App.css";
 import "../src/assets/fonts/fonts.css";
+import '@brainhubeu/react-carousel/lib/style.css';
 import { Grid } from "@material-ui/core";
 import HeaderBar from "./layouts/HeaderBar";
 import SideNavbar from "./layouts/SideNavbar";
-import Services from "./components/Services";
+import Services from "./components/services/Services";
+import Main from "./components/hero_area/Main";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       <HeaderBar />
       <Grid container>
         <SideNavbar />
-        <Services/>
+        <Main/>
+        <Services />
       </Grid>
     </Grid>
   );

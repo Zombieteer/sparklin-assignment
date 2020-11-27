@@ -1,0 +1,146 @@
+@import "../../variables";
+
+.tagCatHead {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #000000;
+  padding: 50px 0;
+  width: 92% !important;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.book-card {
+  padding-bottom: 75px;
+  width: 75%;
+  margin: auto;
+  & .book-img-div {
+    position: relative;
+    border: 0.4px solid #e3eaf2;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding: 40px 35px;
+    text-align: center;
+    & .special-tag {
+      position: absolute;
+      transform: translate(-40px, -45%);
+    }
+    & .book-avatar {
+      width: 95%;
+    }
+  }
+  & .book-title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+    color: #000000;
+    padding: 20px 0 7px;
+  }
+  & .book-authors {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+    color: #d82813;
+    justify-content: flex-start;
+  }
+  & .book-details {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.35px;
+    color: #4b4b4b;
+    justify-content: space-between;
+    padding: 12px 0 20px;
+  }
+  & .book-action-btn {
+    justify-content: space-between;
+    & .addToCartBtn {
+      border: 1px solid #82949d !important;
+      border-radius: 31px !important;
+      width: 45% !important;
+      height: 30px;
+      & .MuiButton-label {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.428571px;
+        color: #82949d;
+      }
+    }
+    & .buynowBtn {
+      width: 45%;
+      margin: 0 !important;
+      height: 30px;
+    }
+  }
+}
+
+.homeSections-divider {
+  width: 92% !important;
+  margin: auto !important;
+  background-color: #e3eaf2 !important;
+}
+
+// featured carousel
+
+.featuredImgDiv {
+  width: 40%;
+  & > img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+}
+.BrainhubCarousel__arrows {
+  border-radius: 50%;
+  background: #ffffff !important;
+  border: 1px solid #e3eaf2;
+  box-shadow: 0px 2px 4px rgba(201, 201, 201, 0.5);
+  & > span {
+    border-color: $primary-color !important;
+  }
+}
+
+.BrainhubCarouselItem {
+  & > div {
+    border: 1px solid #e3eaf2;
+    border-radius: 5px;
+    width: 95% !important;
+  }
+}
+
+.featured-details {
+  place-self: center;
+  text-align: center;
+  width: 60%;
+  & .featured-heading {
+    letter-spacing: 0.833333px;
+    text-transform: uppercase;
+    color: #f88822;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 600;
+  }
+  & .featured-subhead {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.666667px;
+    color: #4b4b4b;
+    padding: 15px 0;
+  }
+  & .featured-desc {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #4b4b4b;
+  }
+  & .featured-btn {
+    padding-top: 30px;
+    & .featureKnowMoreBtn {
+      margin: 0 !important;
+      padding: 9px 30px;
+      height: unset;
+    }
+  }
+}
