@@ -5,7 +5,8 @@ body {
   /* font-weight: 400; */
 }
 
-.MuiButton-root {
+.MuiButton-root,
+.MuiInputBase-root {
   font-family: "Futura PT" !important;
 }
 

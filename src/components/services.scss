@@ -1,0 +1,65 @@
+.side-services {
+  width: 328px;
+}
+
+.services {
+  justify-content: center;
+}
+
+.service-content {
+  width: 63%;
+  padding-left: 15px;
+  > .service-title {
+    font-size: 20px;
+    letter-spacing: 0.555556px;
+    color: #000000;
+  }
+  > .service-desc {
+    font-size: 15px;
+    letter-spacing: 0.416667px;
+    color: #4b4b4b;
+    padding: 7px 0 20px;
+  }
+}
+
+//offers
+
+.offerHeader {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #000000;
+  padding-top: 50px;
+  padding-bottom: 29px;
+  width: 80%;
+  margin: auto;
+}
+
+.offerCard {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.offerTitle {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+  color: #000000;
+  //   font-weight: 400;
+  padding: 28px 0 10px;
+}
+
+.offerDesc {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.24px;
+  color: #4b4b4b;
+}
+
+.knowMoreOffer {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #f88822;
+  text-decoration: underline;
+}

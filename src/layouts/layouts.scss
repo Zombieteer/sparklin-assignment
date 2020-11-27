@@ -61,6 +61,7 @@
 .sideBar {
   width: 250px;
   background: #fff;
+  height: fit-content;
 }
 
 .sidebarItem {
@@ -100,6 +101,6 @@
   margin: 0 25px 0 35px !important;
 }
 
-.activeLink{
-  background: #FEE6D6 !important;
+.activeLink {
+  background: #fee6d6 !important;
 }
