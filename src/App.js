@@ -1,15 +1,17 @@
-import './App.css';
-import '../src/assets/fonts/fonts.css'
-import { Grid } from '@material-ui/core';
-import HeaderBar from './layouts/HeaderBar';
+import "./App.css";
+import "../src/assets/fonts/fonts.css";
+import { Grid } from "@material-ui/core";
+import HeaderBar from "./layouts/HeaderBar";
+import SideNavbar from "./layouts/SideNavbar";
 
 function App() {
   return (
-    <div className="App">
-      <Grid>
-        <HeaderBar/>
+    <Grid>
+      <HeaderBar />
+      <Grid container>
+        <SideNavbar />
       </Grid>
-    </div>
+    </Grid>
   );
 }
 

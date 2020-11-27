@@ -1,6 +1,14 @@
 body {
-  font-family: 'Futura PT';
+  font-family: "Futura PT" !important;
   margin: 0;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
   /* font-weight: 400; */
+}
+
+.MuiButton-root {
+  font-family: "Futura PT" !important;
+}
+
+.MuiButtonBase-root {
+  text-transform: unset !important;
 }

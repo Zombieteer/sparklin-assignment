@@ -1,5 +1,7 @@
 @import "../variables";
 
+//header
+
 .header {
   justify-content: space-around;
   height: 100px;
@@ -52,4 +54,52 @@
       background-color: #8847cc;
     }
   }
+}
+
+// sidebar
+
+.sideBar {
+  width: 250px;
+  background: #fff;
+}
+
+.sidebarItem {
+  padding-left: 25px !important;
+  width: 100% !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  justify-content: left !important;
+  margin-top: 9px !important;
+  margin-bottom: 9px !important;
+  & > span {
+    color: $primary-color;
+    text-align: left;
+    align-items: baseline;
+    & > span {
+      color: #4b4b4b;
+      margin-left: 5px;
+    }
+  }
+  &.quicklinksTitle {
+    padding-left: 35px !important;
+    font-size: 12px;
+    color: #8a8a8a;
+  }
+}
+
+.subSidebarItem {
+  padding-left: 55px !important;
+}
+
+.quicklinksItems {
+  color: #6a6a6a !important;
+}
+
+.sidebarDividers {
+  background: #e3eaf2 !important;
+  margin: 0 25px 0 35px !important;
+}
+
+.activeLink{
+  background: #FEE6D6 !important;
 }
