@@ -1,0 +1,55 @@
+@import "../variables";
+
+.header {
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  background: #fff;
+}
+
+.searchBar {
+  > .MuiOutlinedInput-adornedStart {
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    box-shadow: inset 0px 1px 5px rgba(209, 209, 209, 0.5);
+    border-radius: 25px;
+    height: 50px;
+  }
+}
+
+.hamburgerIconBtn {
+  background-color: $primary-color !important;
+  margin-left: 15px !important;
+}
+
+.hamburgerIcon {
+  color: #fff !important;
+}
+
+.bookstoreBtn {
+  background-color: $primary-color !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+  margin: 0 15px 0 28px !important;
+}
+
+.headerUsers > div {
+  display: flex;
+  > .usersIn {
+    padding: 1px 7px;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    &.usersIn0 {
+      background-color: #25c16f;
+    }
+    &.usersIn1 {
+      background-color: #cc4783;
+    }
+    &.usersIn2 {
+      background-color: #8847cc;
+    }
+  }
+}
