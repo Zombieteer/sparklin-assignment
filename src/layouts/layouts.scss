@@ -59,11 +59,63 @@
 
 // sidebar
 
+.hidetab {
+  width: 66px;
+  height: 28px;
+  cursor: pointer;
+  background: #e3eaf2;
+  border-radius: 31px;
+  display: flex;
+  float: right;
+  margin-right: 20px;
+  align-items: center;
+  & .hidetab-text {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.208333px;
+    color: #8a8a8a;
+    padding-left: 10px;
+    padding-right: 6px;
+    &.shift-padding {
+      padding-right: 10px;
+      padding-left: 6px;
+    }
+  }
+  & .hidetab-arrow {
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transform: rotate(90deg);
+    border: 1px solid #e3eaf2;
+    box-shadow: 0px 2px 3px rgba(219, 219, 219, 0.5);
+    transition: all 0.3s ease;
+    &.face-right {
+      transform: rotate(-90deg);
+    }
+  }
+}
+
 .sideBar {
   border-right: 1px solid #e3eaf2;
-  width: 250px;
   background: #fff;
   height: fit-content;
+  width: 250px;
+  transition: margin-left 0.3s ease;
+  &.show-sidebar {
+    margin-left: 0px;
+  }
+  &.hide-sidebar {
+    margin-left: -155px;
+  }
+  & .show-sidebar-content {
+    visibility: visible;
+  }
+  & .hide-sidebar-content {
+    visibility: hidden;
+  }
 }
 
 .sidebarItem {

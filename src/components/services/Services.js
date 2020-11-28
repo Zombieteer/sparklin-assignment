@@ -12,7 +12,7 @@ import { offersListing, services } from "../../database/offers";
 const Services = () => {
   return (
     <Grid item className="side-services">
-      <Paper elevation={0}>
+      <Paper elevation={0} className='servicesDiv'>
         {services.map((service, id) => (
           <Grid container key={id} className="services">
             <Grid item>

@@ -1,5 +1,9 @@
 .side-services {
   width: 328px;
+  margin-top: 28px !important;
+  & .servicesDiv{
+    padding: 32px 0 8px;
+  }
 }
 
 .services {

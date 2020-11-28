@@ -15,10 +15,14 @@ const renderRating = (rating) => {
   ));
 };
 
+const formatPrice = (price) => {
+  return price.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+};
+
 const Main = () => {
   return (
-    <Grid item style={{ flex: 1 }}>
-      <Paper elevation={0} style={{ borderRight: "1px solid #E3EAF2" }}>
+    <Grid item style={{ flex: 1, marginTop: 28 }}>
+      <Paper square elevation={0} style={{ borderRight: "1px solid #E3EAF2" }}>
         <HeroSection />
         <Grid container>
           {tags.map((tag) => (
@@ -39,7 +43,7 @@ const Main = () => {
 
               {booksListing.map((book) =>
                 book.tags.includes(tag.id) ? (
-                  <Grid item lg={4} key={book.id}>
+                  <Grid item lg={4} md={6} sm={12} key={book.id}>
                     <Grid className="book-card">
                       <Grid className="book-img-div">
                         {book.special ? (
@@ -71,7 +75,7 @@ const Main = () => {
                         ))}
                       </Grid>
                       <Grid container className="book-details">
-                        <Grid item>Rs. {book.price}</Grid>
+                        <Grid item>Rs. {formatPrice(book.price)}</Grid>
                         <Grid item>{renderRating(book.rating)}</Grid>
                       </Grid>
                       <Grid container className="book-action-btn">
