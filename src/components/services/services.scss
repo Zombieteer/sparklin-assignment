@@ -39,6 +39,9 @@
   width: 80%;
   margin: auto;
   margin-bottom: 50px;
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
 }
 
 .offerTitle {

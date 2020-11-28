@@ -6,6 +6,7 @@ import HeaderBar from "./layouts/HeaderBar";
 import SideNavbar from "./layouts/SideNavbar";
 import Services from "./components/services/Services";
 import Main from "./components/hero_area/Main";
+import Footer from "./layouts/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Main/>
         <Services />
       </Grid>
+      <Footer/>
     </Grid>
   );
 }

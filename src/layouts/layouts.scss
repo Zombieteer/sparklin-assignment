@@ -60,7 +60,7 @@
 // sidebar
 
 .sideBar {
-  border-right: 1px solid #E3EAF2;
+  border-right: 1px solid #e3eaf2;
   width: 250px;
   background: #fff;
   height: fit-content;
@@ -105,4 +105,56 @@
 
 .activeLink {
   background: #fee6d6 !important;
+}
+
+// footer
+
+.footer-div {
+  background: #f2f2f2;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 25px;
+  align-items: center;
+  letter-spacing: 0.3px;
+  color: #4a4a4a;
+  padding: 85px 7%;
+  & .footer-leftsec {
+    width: 70%;
+    & .footer-leftDesc {
+      padding: 25px 0 30px;
+    }
+    & .footer-icons {
+      padding: 40px 0 28px;
+      align-items: baseline;
+      & > a {
+        padding-right: 17px;
+      }
+    }
+  }
+
+  & .footer-itemsDiv {
+    justify-content: space-around;
+    & > div > ul {
+      list-style-type: none;
+      text-decoration: none;
+      margin: 0;
+      padding-bottom: 35px;
+      &:nth-last-child(1) {
+        padding-bottom: 0;
+      }
+      > li > a {
+        &:link,
+        &:hover,
+        &:active,
+        &:visited {
+          color: unset;
+          text-decoration: none;
+        }
+      }
+    }
+    & .footer-item-header {
+      font-weight: 400;
+      color: #4b4b4b;
+    }
+  }
 }
